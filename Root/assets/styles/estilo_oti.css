@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    color:aliceblue;
+}
+article{
+    background-color:rgb(red, green, blue)44,43,43;
+    padding: 1.5rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+
+.resultado {
+    color: yellow;
+}
+.titulo { text-align: center; font-size: 3rem;}
