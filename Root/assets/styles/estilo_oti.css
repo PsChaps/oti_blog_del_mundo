@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    color:aliceblue;
+    color: white;
 }
 article{
     background-color:rgb(red, green, blue)44,43,43;
@@ -13,3 +13,20 @@ article{
     color: yellow;
 }
 .titulo { text-align: center; font-size: 3rem;}
+
+.ilustracion{
+    border: 4px solid; color:#ffffff;
+    display: inline;
+}
+
+.footer_de_blog {
+    margin: 2rem;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none
+}
