@@ -9,6 +9,12 @@ article{
     border-bottom: 1px solid #ffffff;
 }
 
+#titulo_del_blog{
+    padding-top: 6rem;
+    text-align: center;
+    font-size: clamp(2rem, calc(1% + 2rem), 7rem)
+}
+
 
 .resultado {
     color: yellow;
@@ -32,6 +38,7 @@ nav{
     font-size: 1.3rem;
 }
 
+
 nav>ul>li>a {
     text-decoration: none;
     color: white;
@@ -48,17 +55,20 @@ nav>ul>li>a:hover{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        border-bottom: 1px solid; color:white;
+        border-bottom: 1.5px solid; color:white;
     }
 }
 
-nav ul {
-    display: grid;
+nav>ul {
+    /*display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: auto;
+    grid-auto-rows: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     gap: 1rem;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 1.5rem;
+    border-bottom: .5px solid #fff;
+    padding-bottom: .1rem;
 }
 
 nav>ul>li {
@@ -155,7 +165,7 @@ aside> div> img {
     border-radius: 50%;
 }
 
-aside div {
+aside> div {
     display: flex;
     align-items: center;
     justify-content: flex-start;
